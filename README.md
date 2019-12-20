@@ -6,10 +6,7 @@ First Time Running the Server:
 1. Prerequisite
    - Set up a Ubuntu 18.04 LTS vm
    - Create a duckdns account and get your account token
-   - Set your token as an environmental variable by running
-   
-   `export DUCKDNS=90baa534-42be-41e3-975b-4a3b5a1b21d1`
-   
+   - Edit the `docker-compose.yml` file to use the account token
    - Create an entry in Duckdns linking the ip address of the VM with the subdomain (tw-webapp)
 2. Install Docker + Docker Compose
    - https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu/
