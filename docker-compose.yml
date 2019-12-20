@@ -68,7 +68,7 @@ services:
       - URL=tw-webapp.duckdns.org
       - SUBDOMAINS=wildcard
       - VALIDATION=duckdns
-      - DUCKDNSTOKEN=90baa534-42be-41e3-975b-4a3b5a1b21d1
+      - DUCKDNSTOKEN=738183c3-1365-42ac-8d3b-acb5a3e013a3
       - STAGING=false
     volumes:
       - webapp:/webapp
