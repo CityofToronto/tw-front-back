@@ -57,6 +57,7 @@ Updating The Server
 Reseting the Server
 1. `sudo docker-compose down -v`
 2. `sudo docker-compose up -d`
+3. Do steps 8 & 9 again
 
 Remove all Docker files
 `sudo docker system prune -a`
