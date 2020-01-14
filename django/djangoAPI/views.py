@@ -38,7 +38,7 @@ def test(request):
         html_content='<strong>Annette is holding me hostage in the Taylor-Massey Creek meetin room</strong>')
     try:
         sg = SendGridAPIClient(
-            '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')
+            API_KEY)
         response = sg.send(message)
         print(response.status_code)
         print(response.body)
